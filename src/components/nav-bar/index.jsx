@@ -72,7 +72,7 @@ export default function NavigationBar() {
               alt=""
               crossOrigin="anonymous"
               draggable="false"
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               className="w-6 h-6"
             />
           </span>
