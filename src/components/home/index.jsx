@@ -273,7 +273,7 @@ const Aside = () => {
 
       <div className="w-full flex justify-between items-center">
         <div className="flex items-center space-x-3">
-          <div className='bg-[url("/images/image5.jpg")] bg-center bg-cover w-8 h-8 rounded-full'></div>
+          <div className='bg-[url("/images/image5.jpg")] bg-white bg-center bg-cover w-8 h-8 rounded-full'></div>
           <p className="flex flex-col text-sm">
             <span className="text-primary font-semibold">themonthlypd</span>
             <span className="text-gray ">Followed by tolulope</span>
@@ -286,7 +286,7 @@ const Aside = () => {
 
       <div className="w-full flex justify-between items-center my-4">
         <div className="flex items-center space-x-3">
-          <div className='bg-[url("/images/image3.jpg")] bg-center bg-cover w-8 h-8 rounded-full'></div>
+          <div className='bg-[url("/images/image3.jpg")] bg-white bg-center bg-cover w-8 h-8 rounded-full'></div>
           <p className="flex flex-col  text-sm">
             <span className="text-primary font-semibold">perfumenigeria</span>
             <span className="text-gray ">Suggested for you</span>
@@ -299,7 +299,7 @@ const Aside = () => {
 
       <div className="w-full flex justify-between items-center">
         <div className="flex items-center space-x-3">
-          <div className='bg-[url("/images/image4.jpg")] bg-center bg-cover w-8 h-8 rounded-full'></div>
+          <div className='bg-[url("/images/image4.jpg")] bg-white bg-center bg-cover w-8 h-8 rounded-full'></div>
           <p className="flex flex-col  text-sm">
             <span className="text-primary font-semibold">acupofkaffi</span>
             <span className="text-gray ">Suggested for you</span>
@@ -323,27 +323,29 @@ const Aside = () => {
         </span>
       </div>
 
-      <div className="w-full flex space-x-1 text-[rgb(199,199,199)]  text-xs flex-wrap mt-8">
+      <div className="w-full flex items-center space-x-1 text-[rgb(199,199,199)]  text-xs mt-8">
         <span>About</span>
-        <span>.</span>
+        <span>&#x2022;</span>
         <span>Help</span>
-        <span>.</span>
+        <span>&#x2022;</span>
         <span>Press</span>
-        <span>.</span>
+        <span>&#x2022;</span>
         <span>API</span>
-        <span>.</span>
+        <span>&#x2022;</span>
         <span>Jobs</span>
-        <span>.</span>
+        <span>&#x2022;</span>
         <span>Privacy</span>
-        <span>.</span>
+        <span>&#x2022;</span>
         <span>Terms</span>
-        <span>.</span>
+      </div>
+
+      <div className="w-full flex space-x-1 items-center text-[rgb(199,199,199)]  text-xs mt-1">
         <span>Locations</span>
-        <span>.</span>
+        <span>&#x2022;</span>
         <span>Language</span>
       </div>
 
-      <p className="text-[rgb(199,199,199)] text-xs mt-4">
+      <p className="text-[rgb(199,199,199)] text-xs mt-5">
         © 2022 INSTAGRAM FROM META
       </p>
     </section>
