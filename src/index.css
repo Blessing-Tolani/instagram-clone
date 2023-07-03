@@ -10,3 +10,34 @@ body {
 :root {
   --black: rgb(38, 38, 38);
 }
+
+.transition {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
+}
+
+.hamburger-menu div:first-child,
+.hamburger-menu div:nth-child(2) {
+  margin-bottom: 0.25rem;
+}
+
+.hamburger-menu-active div:nth-child(2) {
+  display: none;
+}
+
+.hamburger-menu-active div:first-child {
+  /* top: 0.438em; */
+  margin-bottom: 0;
+  position: absolute;
+  right: 0px;
+  transform: rotate(45deg);
+}
+
+.hamburger-menu-active div:last-child {
+  /* top: -0.313em; */
+  position: absolute;
+  right: 0px;
+  transform: rotate(-45deg);
+}
